@@ -1,2 +1,17 @@
-"dit is om te testen of dit allemaal werkt"
-"deze komt op de test branch"
+SecretWord = ""
+
+def GetSecretWord():
+    SecretWord = input("Don't let the other look, what will be your secret word? ")
+    print( """
+        _____________
+        |            |
+        |            |
+        |            0
+        |           \|/
+        |            |
+        |           /|
+        |
+        |
+        |_________""")
+GetSecretWord()
+#def CreateGallow():
