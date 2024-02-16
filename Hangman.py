@@ -1,8 +1,8 @@
 SecretWord = ""
-gallow = (1,2,3,4,5,6,7,8,9)
+gallow = (200,1,2,3,4,5,6,7,8,9)
 
-def GetSecretWord():
-    SecretWord = input("Don't let the other look, what will be your secret word? ")
+def GetSecretWord():    #function below prints the gallow doodle afterwards it request a secret word and returns this.
+    
     print( """
         _____________
         |            |
@@ -14,5 +14,10 @@ def GetSecretWord():
         |
         |
         |_________""")
-GetSecretWord()
-def CreateGallow():
+    SecretWordFunction = input("Don't let the other look, what will be your secret word? ")
+    return SecretWordFunction
+
+
+
+SecretWord = GetSecretWord()
+print(len(SecretWord))
